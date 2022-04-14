@@ -1,0 +1,61 @@
+:root {
+    padding: 0px;
+    border-style: solid;
+    border-color: red;
+    background-color: lightgray;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* left content items */
+.content-left {
+    height: 100vh;
+    width: 40vw;
+}
+
+.fern { 
+    background-image: url("./reference/fern.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+
+/*.odin {
+    max-height: 10vh;
+}
+
+.logo {
+    position: absolute;
+    background-color: black;
+
+}
+
+/* right content items*/
+.content-right {
+    height: 100vh;
+    width: 60vw;
+    display: flex;    
+    flex-direction: column;
+}
+
+.forms {
+    height: 33vh;
+    margin: 20px;
+}
+
+.content-top {
+    height: 33vh;
+    background-color: white;
+}
+
+.content-bottom {
+    height: 33vh;
+    background-color: white;
+}
