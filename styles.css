@@ -5,7 +5,7 @@
 
 :root {
     padding: 0px;
-    background-color: lightgray;
+    background-color: rgb(220, 223, 215);
     font-family: sans-serif;
 }
 
@@ -80,6 +80,11 @@ body {
 
 .forms {
     height: 25vh;
+    margin-bottom: 5px;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.19);   
+}
+
+.formsign {
     margin: 20px;
 }
 
@@ -102,7 +107,7 @@ button {
     font-size: 20px;
     font-weight: bolder;
     border-radius: 8px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.19);
     border: none;
 }
 
