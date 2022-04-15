@@ -6,6 +6,7 @@
 :root {
     padding: 0px;
     background-color: lightgray;
+    font-family: sans-serif;
 }
 
 body {
@@ -47,12 +48,12 @@ body {
     column-gap: 20px;
 }
 
-h1, .odin {
+.sign, .odin {
     margin-top: 25px;
     margin-bottom: 25px;
 }
 
-h1 {
+.sign {
     font-family: norse;
     font-size: 100px;
     color: white;
@@ -66,17 +67,59 @@ h1 {
     flex-direction: column;
 }
 
+.content-top {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 15vw;
+    height: 37.5vh;
+    background-color: white;
+}
+
 .forms {
-    height: 33vh;
+    height: 25vh;
     margin: 20px;
 }
 
-.content-top {
-    height: 33vh;
+.content-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 40px;
+    padding-left: 50px;
+    height: 37.5vh;
     background-color: white;
+    row-gap: 50px;
 }
 
-.content-bottom {
-    height: 33vh;
+button {
+    text-align: center;
+    background-color: #596D48;
+    padding: 15px 55px;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    border: none;
+}
+
+.bottomtext {
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+.account {
+    font-size: 20px;
+}
+
+.login {
+    border: none;
     background-color: white;
+    color: #596D48;
+    font-weight: bolder;
+    font-size: 20px;
 }
