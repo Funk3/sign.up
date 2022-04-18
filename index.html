@@ -24,36 +24,64 @@
     <div class="content-right">
         <div class="content-top">
                 
-                <h2 class="first">This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.</h2>
+                <h2>
+                    This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams.
+                    Sign up <i>now</i> to get started.
+                </h2>
                 
-                <h2 class="second">Sign up <i>now</i> to get started</h2>
-                
-                <h2 class="third">You <i>know</i> you want to.</h2>   
+                <h2>You <i>know</i> you want to.</h2>   
 
         </div>
         
         <div class="forms">
             <div class="formsign">
+
+                <div class="lets">
+                    <h2>Let's do this!</h2>
+                </div>
+
             <form id="signup">
-            
-                    <label for="firstName">First Name</label>
-                    <input type="text" id="firstName" required>
-                    
-                    <label for="lastName">Last Name</label>
-                    <input type="text" id="lastName" required>
+
+                <table>
+                    <tr>
+                        <th><label for="firstName">FIRST NAME</label></th>
+                        <th><label for="lastName">LAST NAME</label></th>
+                        
+                    </tr>
+
+                    <tr>    
+                        <td><input type="text" id="firstName" required></td>
+                        <td><input type="text" id="lastName" required></td>
+                    </tr>  
+                </table>
                 
-                    <label for="email">Email</label>
-                    <input type="email" id="email" required>
-
-                    <label for="phoneNumber">Phone Number</label>
-                    <input type="tel" id="phoneNumber">
-
-                    <label for="password">Password</label>
-                    <input type="password" id="password" required>
- 
-                    <label for="confirm-password">Confirm Password</label>
-                    <input type="password" id="confirm-password" required>
-   
+                <table>
+                    <tr>
+                        <th><label for="email">EMAIL</label></th>
+                        <th><label for="phoneNumber">PHONE NUMBER</label></th>
+                    </tr>
+                    <tr>
+                        <td><input type="email" id="email" required></td>
+                        <td><input type="tel" id="phoneNumber"></td>
+                    </tr>
+                </table>
+                
+                <table>
+                    <tr>
+                        <th><label for="password">PASSWORD</label></th>
+                        <th><label for="confirm-password">CONFIRM PASSWORD</label></th>
+                    </tr>    
+                    
+                    <tr>
+                        <td><input type="password" id="password" required></td>
+                        <td><input type="password" id="confirm-password" required></td>
+                    </tr>     
+                    
+                    <tr>
+                        <td class="error">* Passwords do not match</td>
+                    </tr>
+                </table>
+            
             </form>
             </div>
         </div>
@@ -64,7 +92,7 @@
             
             <div class="bottomtext">
                 <div class="account">Already have an account?</div>
-                <a class="login" href:"www.google.com">Log in</a>
+                <a class="login" href="www.google.com">Log in</a>
             </div>    
         </div>
     </div>
